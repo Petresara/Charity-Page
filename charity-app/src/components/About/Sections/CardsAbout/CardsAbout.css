@@ -1,0 +1,417 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+  
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+ .about-cards {
+        width: 100%;
+        max-width: 100%;
+        font-family: "Roboto Slab", serif;
+        margin: 0 auto;
+        margin-bottom: 250px;
+    }
+    .about-cards-container {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 10px;
+        justify-items: center;
+        align-items: center;
+        padding: 0 120px;
+        text-align: center;
+    }
+    .about-food-card,
+    .about-water-card,
+    .about-medicine-card,
+    .about-education-card {
+      position: relative;
+      background-color: #fff;
+      border-radius: 15px;
+      padding: 20px;
+      width: 310px;
+      height: 210px;
+      box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    }
+
+    .about-food-card a,
+    .about-water-card a,
+    .about-medicine-card a,
+    .about-education-card a {
+        text-decoration: none;
+        color:#212158;
+        font-size: 26px;
+        font-weight: 500;
+        text-align: center;
+        padding: 20px;
+        position: relative;
+        top: 55%;
+    }
+    .about-food-card a:hover,
+    .about-water-card a:hover,
+    .about-medicine-card a:hover,
+    .about-education-card a:hover {
+        color: #EF5F34;
+        
+    }
+
+    .about-img-card-container {
+        position: absolute;
+        top: 0;
+        left: 25%;
+        background-color: #ffffff;
+        border-radius: 50%;
+        width: 150px;
+        height: 150px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto 50px;
+        box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    }
+
+    .about-img-card-container img {
+        width: 100px;
+        height: 90px;
+    }
+
+    .about-food-card {
+        grid-column-start: 1;
+        grid-column-end: 1;
+        background-color: #caf7f2;
+    }
+    
+    .about-water-card {
+        grid-column-start: 2;
+        grid-column-end: 2;
+        background-color: #fde4de;
+    }
+    
+    .about-medicine-card {
+        grid-column-start: 3;
+        grid-column-end: 3;
+        background-color: #d2ecf4;
+    }
+    
+    .about-education-card {
+        grid-column-start: 4;
+        grid-column-end: 4;
+        background-color: #fff5dc;
+    }
+
+    .about-cards-container div:nth-child(1),
+    .about-cards-container div:nth-child(3) {
+    margin-top: -70px;
+}
+
+    .about-cards-container div:nth-child(2),
+    .about-cards-container div:nth-child(4) {
+    margin-top: 70px;
+}
+    
+    
+@media screen and (min-width: 1024) and (max-width: 1439px){
+
+    .about-cards {
+        width: 100%;
+        max-width: 100%;
+        font-family: "Roboto Slab", serif;
+        margin: 0 auto;
+        margin-bottom: 350px;
+        margin-top: 150px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .about-cards-container {
+        display: grid;
+        grid-auto-columns: repeat(4, 1fr);
+        justify-items: center;
+        align-items: center;
+        padding: 0 120px;
+        text-align: center;
+    }
+    .about-food-card,
+    .about-water-card,
+    .about-medicine-card,
+    .about-education-card {
+      position: relative;
+      background-color: #fff;
+      border-radius: 15px;
+      padding: 20px;
+      width: 310px;
+      height: 210px;
+      box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    }
+
+    .about-food-card a,
+    .about-water-card a,
+    .about-medicine-card a,
+    .about-education-card a {
+        text-decoration: none;
+        color:#212158;
+        font-size: 26px;
+        font-weight: 500;
+        text-align: center;
+        padding: 20px;
+        position: relative;
+        top: 55%;
+    }
+    .about-food-card a:hover,
+    .about-water-card a:hover,
+    .about-medicine-card a:hover,
+    .about-education-card a:hover {
+        color: #EF5F34;
+        
+    }
+
+    .about-img-card-container {
+        position: absolute;
+        top: 0;
+        left: 25%;
+        background-color: #ffffff;
+        border-radius: 50%;
+        width: 150px;
+        height: 150px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto 50px;
+        box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    }
+
+    .about-img-card-container img {
+        width: 100px;
+        height: 90px;
+    }
+
+    .about-food-card {
+        grid-column-start: 1;
+        grid-column-end: 1;
+        background-color: #caf7f2;
+    }
+    
+    .about-water-card {
+        grid-column-start: 2;
+        grid-column-end: 2;
+        background-color: #fde4de;
+    }
+    
+    .about-medicine-card {
+        grid-column-start: 3;
+        grid-column-end: 3;
+        background-color: #d2ecf4;
+    }
+    
+    .about-education-card {
+        grid-column-start: 4;
+        grid-column-end: 4;
+        background-color: #fff5dc;
+    }
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .about-cards {
+        width: 100%;
+        max-width: 100%;
+        font-family: "Roboto Slab", serif;
+        margin: 0 auto;
+        margin-bottom: 350px;
+        margin-top: 300px;
+    }
+    .about-cards-container {
+        padding: 0 100px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        grid-gap: 20px;
+    }
+    .about-food-card,
+    .about-water-card,
+    .about-medicine-card,
+    .about-education-card {
+        position: relative;
+        background-color: #fff;
+        border-radius: 15px;
+        padding: 15px;
+        margin-top: 70px;
+        margin-left: 19px;
+        width: 250px;
+        height: 190px;
+        box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    }
+
+    .about-food-card a,
+    .about-water-card a,
+    .about-medicine-card a,
+    .about-education-card a {
+        text-decoration: none;
+        color:#212158;
+        font-size: 20px;
+        font-weight: 500;
+        text-align: center;
+        padding: 20px;
+        position: relative;
+        top: 70%;
+    }
+    .about-food-card a:hover,
+    .about-water-card a:hover,
+    .about-medicine-card a:hover,
+    .about-education-card a:hover {
+        color: #EF5F34;
+        
+    }
+
+    .about-img-card-container {
+        position: absolute;
+        top: -25%;
+        left: 20%;
+        background-color: #ffffff;
+        border-radius: 50%;
+        width: 150px;
+        height: 150px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto 50px;
+        box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    }
+
+    .about-img-card-container img {
+        width: 100px;
+        height: 90px;
+    }
+
+    .about-food-card {
+        background-color: #caf7f2;
+    }
+    
+    .about-water-card {
+        background-color: #fde4de;
+    }
+    
+    .about-medicine-card {
+        background-color: #d2ecf4;
+    }
+    
+    .about-education-card {
+        background-color: #fff5dc;
+    }
+    .about-cards-container div:nth-child(1),
+    .about-cards-container div:nth-child(3) {
+    margin-top: 0;
+}
+
+    .about-cards-container div:nth-child(2),
+    .about-cards-container div:nth-child(4) {
+    margin-top: 0;
+}
+    
+}
+
+@media screen and (max-width: 767px) {
+    .about-cards {
+        width: 100%;
+        max-width: 100%;
+        font-family: "Roboto Slab", serif;
+        margin: 0 auto;
+        margin-bottom: 350px;
+        margin-top: 300px;
+    }
+    .about-cards-container {
+        padding: 0 100px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .about-food-card,
+    .about-water-card,
+    .about-medicine-card,
+    .about-education-card {
+        position: relative;
+        background-color: #fff;
+        border-radius: 15px;
+        padding: 15px;
+        margin-top: 70px;
+        margin-left: 19px;
+        width: 250px;
+        height: 190px;
+        box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    }
+
+    .about-food-card a,
+    .about-water-card a,
+    .about-medicine-card a,
+    .about-education-card a {
+        text-decoration: none;
+        color:#212158;
+        font-size: 20px;
+        font-weight: 500;
+        text-align: center;
+        padding: 20px;
+        position: relative;
+        top: 70%;
+    }
+    .about-food-card a:hover,
+    .about-water-card a:hover,
+    .about-medicine-card a:hover,
+    .about-education-card a:hover {
+        color: #EF5F34;
+        
+    }
+
+    .about-img-card-container {
+        position: absolute;
+        top: -25%;
+        left: 20%;
+        background-color: #ffffff;
+        border-radius: 50%;
+        width: 150px;
+        height: 150px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto 50px;
+        box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    }
+
+    .about-img-card-container img {
+        width: 100px;
+        height: 90px;
+    }
+
+    .about-food-card {
+        background-color: #caf7f2;
+    }
+    
+    .about-water-card {
+        background-color: #fde4de;
+    }
+    
+    .about-medicine-card {
+        background-color: #d2ecf4;
+    }
+    
+    .about-education-card {
+        background-color: #fff5dc;
+    }
+    .about-cards-container div:nth-child(1),
+    .about-cards-container div:nth-child(3) {
+    margin-top: 0;
+}
+
+    .about-cards-container div:nth-child(2),
+    .about-cards-container div:nth-child(4) {
+    margin-top: 0;
+}
+    
+}

@@ -1,0 +1,487 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900&display=swap");
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.home-blog {
+    background-color: #fcf0f1;
+    width: 100%;
+    padding: 80px 100px;
+    font-family: "Roboto Slab", serif;
+    margin: 0 auto;
+}
+
+.blog-container {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.blog-subhead {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #EF5F34;
+}
+
+.blog-head {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 500;
+    font-size: 38px;
+    color: #212158;
+    margin-bottom: 20px;
+}
+
+.blog-text {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    color: rgb(106, 105, 105);
+    line-height: 1.8;
+    max-width: 530px;
+    margin: 0 auto;
+}
+
+.blog-cards {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.blog-card {
+    width: 400px; 
+    height: 550px; 
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden; 
+    padding: 0;
+    text-align: left;
+    transition: transform 0.3s;
+}
+
+.first-blog-img {
+    width: 100%;
+    height: auto; 
+    object-fit: contain;
+    border-radius: 10px 10px 0 0; 
+}
+
+.first-blog-head {
+    font-size: 24px;
+    max-width: 100%;
+    font-weight: 500;
+    font-family: 'Roboto Slab', serif;
+    color: #212158;
+    padding: 15px 10px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #e7e7e7;
+}
+
+.first-blog-head a {
+    text-decoration: none;
+    color: #212158;
+    transition: color 0.3s;
+}
+
+.first-blog-head a:hover {
+    color: #EF5F34;
+}
+
+.blog-card-second-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px 20px;
+}
+
+.blog-card-second-container img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.blog-card-second-container p {
+    font-size: 18px;
+    color: #888;
+    font-weight: 500;
+}
+
+.blog-card-second-container a {
+    text-decoration: none;
+    color: #5b5b5b;
+    margin-left: -120px;
+}
+
+.chat-icon {
+    display: flex;
+    align-items: center;
+    color: #888;
+    font-size: 18px;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
+    .home-blog {
+        background-color: #fcf0f1;
+        width: 100%;
+        padding: 80px 70px;
+        font-family: "Roboto Slab", serif;
+        margin: 0 auto;
+    }
+    
+    .blog-container {
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    
+    .blog-subhead {
+        font-family: 'Roboto Slab', serif;
+        font-weight: 400;
+        font-size: 18px;
+        color: #EF5F34;
+    }
+    
+    .blog-head {
+        font-family: 'Roboto Slab', serif;
+        font-weight: 500;
+        font-size: 38px;
+        color: #212158;
+        margin-bottom: 20px;
+    }
+    
+    .blog-text {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        font-size: 17px;
+        color: rgb(106, 105, 105);
+        line-height: 1.8;
+        max-width: 530px;
+        margin: 0 auto;
+    }
+    
+    .blog-cards {
+        display: flex;
+        gap: 30px;
+        justify-content: center;
+        align-items: flex-start;
+        margin-top: 50px;
+    }
+    
+    .blog-card {
+        width: 450px; 
+        height: 500px; 
+        background-color: #fff;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+        overflow: hidden; 
+        padding: 0;
+        text-align: left;
+        transition: transform 0.3s;
+    }
+    
+    .first-blog-img {
+        width: 100%;
+        height: auto; 
+        object-fit: contain;
+        border-radius: 10px 10px 0 0; 
+    }
+    
+    .first-blog-head {
+        font-size: 20px;
+        max-width: 100%;
+        font-weight: 500;
+        font-family: 'Roboto Slab', serif;
+        color: #212158;
+        padding: 15px 10px;
+        padding-bottom: 40px;
+        border-bottom: 1px solid #e7e7e7;
+    }
+    
+    .first-blog-head a {
+        text-decoration: none;
+        color: #212158;
+        transition: color 0.3s;
+    }
+    
+    .first-blog-head a:hover {
+        color: #EF5F34;
+    }
+    
+    .blog-card-second-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 15px 20px;
+    }
+    
+    .blog-card-second-container img {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+    }
+    
+    .blog-card-second-container p {
+        font-size: 18px;
+        color: #888;
+        font-weight: 500;
+    }
+    
+    .blog-card-second-container a {
+        text-decoration: none;
+        color: #5b5b5b;
+        margin-left: -70px;
+    }
+    
+    .chat-icon {
+        display: flex;
+        align-items: center;
+        color: #888;
+        font-size: 18px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .home-blog {
+        background-color: #fcf0f1;
+        width: 100%;
+        padding: 80px 70px;
+        font-family: "Roboto Slab", serif;
+        margin: 0 auto;
+    }
+    
+    .blog-container {
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    
+    .blog-subhead {
+        font-family: 'Roboto Slab', serif;
+        font-weight: 400;
+        font-size: 18px;
+        color: #EF5F34;
+    }
+    
+    .blog-head {
+        font-family: 'Roboto Slab', serif;
+        font-weight: 500;
+        font-size: 38px;
+        color: #212158;
+        margin-bottom: 20px;
+    }
+    
+    .blog-text {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        font-size: 17px;
+        color: rgb(106, 105, 105);
+        line-height: 1.8;
+        max-width: 530px;
+        margin: 0 auto;
+    }
+    
+    .blog-cards {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: auto auto;
+        grid-gap: 20px;
+        width: 100%;
+    }
+    
+    .blog-card {
+        width: 350px; 
+        height: 500px; 
+        background-color: #fff;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+        overflow: hidden; 
+        padding: 0;
+        text-align: left;
+        transition: transform 0.3s;
+    }
+    
+    .first-blog-img {
+        width: 100%;
+        height: auto; 
+        object-fit: contain;
+        border-radius: 10px 10px 0 0; 
+    }
+    
+    .first-blog-head {
+        font-size: 20px;
+        max-width: 100%;
+        font-weight: 500;
+        font-family: 'Roboto Slab', serif;
+        color: #212158;
+        padding: 15px 10px;
+        padding-bottom: 40px;
+        border-bottom: 1px solid #e7e7e7;
+    }
+    
+    .first-blog-head a {
+        text-decoration: none;
+        color: #212158;
+        transition: color 0.3s;
+    }
+    
+    .first-blog-head a:hover {
+        color: #EF5F34;
+    }
+    
+    .blog-card-second-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 15px 20px;
+    }
+    
+    .blog-card-second-container img {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+    }
+    
+    .blog-card-second-container p {
+        font-size: 18px;
+        color: #888;
+        font-weight: 500;
+    }
+    
+    .blog-card-second-container a {
+        text-decoration: none;
+        color: #5b5b5b;
+        margin-left: -70px;
+    }
+    
+    .chat-icon {
+        display: flex;
+        align-items: center;
+        color: #888;
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .home-blog {
+        background-color: #fcf0f1;
+        width: 100%;
+        padding: 80px 70px;
+        font-family: "Roboto Slab", serif;
+        margin: 0 auto;
+    }
+    
+    .blog-container {
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    
+    .blog-subhead {
+        font-family: 'Roboto Slab', serif;
+        font-weight: 400;
+        font-size: 18px;
+        color: #EF5F34;
+    }
+    
+    .blog-head {
+        font-family: 'Roboto Slab', serif;
+        font-weight: 500;
+        font-size: 38px;
+        color: #212158;
+        margin-bottom: 20px;
+    }
+    
+    .blog-text {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        font-size: 17px;
+        color: rgb(106, 105, 105);
+        line-height: 1.8;
+        max-width: 530px;
+        margin: 0 auto;
+    }
+    
+    .blog-cards {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+    }
+    
+    .blog-card {
+        width: 350px; 
+        height: 500px; 
+        background-color: #fff;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+        overflow: hidden; 
+        padding: 0;
+        text-align: left;
+        transition: transform 0.3s;
+    }
+    
+    .first-blog-img {
+        width: 100%;
+        height: auto; 
+        object-fit: contain;
+        border-radius: 10px 10px 0 0; 
+    }
+    
+    .first-blog-head {
+        font-size: 20px;
+        max-width: 100%;
+        font-weight: 500;
+        font-family: 'Roboto Slab', serif;
+        color: #212158;
+        padding: 15px 10px;
+        padding-bottom: 40px;
+        border-bottom: 1px solid #e7e7e7;
+    }
+    
+    .first-blog-head a {
+        text-decoration: none;
+        color: #212158;
+        transition: color 0.3s;
+    }
+    
+    .first-blog-head a:hover {
+        color: #EF5F34;
+    }
+    
+    .blog-card-second-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 15px 20px;
+    }
+    
+    .blog-card-second-container img {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+    }
+    
+    .blog-card-second-container p {
+        font-size: 18px;
+        color: #888;
+        font-weight: 500;
+    }
+    
+    .blog-card-second-container a {
+        text-decoration: none;
+        color: #5b5b5b;
+        margin-left: -70px;
+    }
+    
+    .chat-icon {
+        display: flex;
+        align-items: center;
+        color: #888;
+        font-size: 18px;
+    }
+}

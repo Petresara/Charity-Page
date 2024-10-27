@@ -1,0 +1,334 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+footer {
+    font-family: 'Roboto', sans-serif;
+    background-color: #223d70;
+    color: #f2ebeb;
+    margin: 0 auto;
+}
+
+.footer-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    gap: 10px;
+    margin: 0 auto;
+    padding: 90px;
+    position: relative;
+}
+
+.logo-container {
+    flex: 1;
+}
+
+.logo-footer {
+    width: 190px;
+    height: 55px;
+}
+.footer-text {
+    margin: 20px 0;
+    line-height: 1.7;
+    font-size: 17px;
+}
+.social-media-container {
+    display: flex;
+    gap: 15px;
+}
+.social-media-button {
+    border-radius: 50%;
+    margin-left: 10px;
+    color: #FFFFFF;
+    background-color: #49608a;
+    width: 35px;
+    height: 35px;
+    border: none;
+}
+.social-media-button svg {
+    padding-top: 3px;
+    width: 30px;
+    height: 30px;
+}
+.social-media-button:hover {
+    background-color: #FFFFFF;
+    color: #0c214a;
+}
+
+.services-container {
+    padding-left: 0;
+}
+
+.services-container ul li {
+    list-style-type: none;
+    margin-left: 15px;
+}
+
+.services-container ul li:hover {
+    text-decoration: underline;
+}
+
+.services-heading,
+.contact-container-heading,
+.projects-container-heading {
+    font-family: "Roboto Slab", serif;
+    font-size: 24px;
+    font-weight: 500;
+    padding: 20px;
+}
+.contact-container-heading {
+    margin-left: -15px;
+}
+
+.contact-container-text,
+.contact-mail,
+.contact-phone,
+.contact-location,
+.services-container ul li {
+    font-size: 17px;
+    font-weight: 300;
+    color: #ede7e6;
+    padding: 7px;
+    text-align: start;
+}
+
+.projects-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+    align-items: start;
+    margin-left: 15px;
+}
+.projects-container-heading {
+    margin-left: -15px;
+}
+
+.projects-grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 20px;
+
+}
+
+.projects-container img {
+    width: 90px;
+    height: 80px;
+    object-fit: cover;
+    padding: 3px;
+}
+
+#first-project {
+    grid-row-start: 1;
+    grid-row-end: 1;
+    grid-column-start: 1;
+    grid-column-end: 1;
+}
+
+#second-project {
+    grid-row-start: 1;
+    grid-row-end: 1;
+    grid-column-start: 2;
+    grid-column-end: 2;
+}
+
+#third-project {
+    grid-row-start: 1;
+    grid-row-end: 1;
+    grid-column-start: 3;
+    grid-column-end: 3;
+}
+
+#fourth-project {
+    grid-row-start: 2;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 1;
+}
+
+#fifth-project {
+    grid-row-start: 2;
+    grid-row-end: 2;
+    grid-column-start: 2;
+    grid-column-end: 2;
+}
+
+#sixth-project {
+    grid-row-start: 2;
+    grid-row-end: 2;
+    grid-column-start: 3;
+    grid-column-end: 3;
+}
+
+.services-container,
+.contact-container,
+.projects-container {
+    flex: 1; 
+}
+
+h2 {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 5px;
+}
+
+ul li a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer-info {
+    position: absolute;
+    left: 0px;
+    width: 100%;
+    text-align: center;
+    padding: 25px 0;
+    margin-bottom: 0;
+    background-color: #0c214a;
+    font-size: 15px;
+}
+
+@media  screen and (min-width: 1024px) and (max-width: 1439px){
+    .footer-container {
+        display: flex;
+        gap: 5px;
+        padding: 20px 0px;
+        position: relative;
+    }
+    .logo-footer {
+        width: 80px;
+    }
+    .footer-text {
+        font-size: 12px;
+    }
+    .projects-container {
+        padding-left: 90px;
+        padding-right: 80px;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .projects-grid-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+    }
+    
+    .projects-container img {
+        width: 100px;
+        height: 70px;
+        object-fit: cover;
+        padding: 3px;
+    }
+    
+    h2 {
+        font-size: 16px;
+    }
+    .social-media-container {
+        gap: 5px;
+    }
+    ul li {
+        margin-bottom: 3px;
+    }
+    .footer-info {
+        position: absolute;
+        bottom: -900%;
+        font-size: 10px;
+        max-width: 100%;
+    }
+}
+
+@media (min-width: 768px)and(max-width: 1023px) {
+    .footer-container {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        padding: 20px 200px;
+    }
+    .logo-footer {
+        width: 80px;
+    }
+    .footer-text {
+        font-size: 12px;
+    }
+    .projects-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .projects-grid-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+    }
+    
+    .projects-container {
+        padding-left: 20px;
+        padding-right: 20px;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .projects-container img {
+        width: 40px;
+        height: 50px;
+        object-fit: cover;
+        padding: 3px;
+    }
+    h2 {
+        font-size: 16px;
+    }
+    
+    .social-media-container {
+        gap: 5px;
+    }
+    ul li {
+        margin-bottom: 3px;
+    }
+    .footer-info {
+        font-size: 10px;
+        width: 100%;
+        position: absolute;
+        bottom: -200px;
+    }
+}
+
+@media (max-width: 767px) {
+ .footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 60px 80px;
+ }
+
+ .projects-grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+
+.projects-container img {
+    width: 150px;
+    height: 80px;
+    object-fit: cover;
+    padding: 3px;
+}
+
+.logo-footer {
+    width: 190px;
+    height: 55px;
+}
+.footer-text {
+    font-size: 15px;
+    width: 100%;
+}
+.footer-info {
+    font-size: 10px;
+    width: 100%;
+    padding: 15px;
+    position: absolute;
+    bottom: -417%;
+}
+    
+}

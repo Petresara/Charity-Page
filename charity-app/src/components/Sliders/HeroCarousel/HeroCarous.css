@@ -1,0 +1,10 @@
+.hero-carousel-container {
+    width: 280px;
+}
+
+.item-hero img{
+    width: 55px;
+    height: 55px;
+    border-radius: 50px;
+
+}

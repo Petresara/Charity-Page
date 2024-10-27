@@ -1,0 +1,267 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+  
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.home-joinVolunteer{
+    width: 100%;
+    font-family: "Roboto Slab", serif;
+    margin: 0 auto;
+    margin-bottom: 150px;
+    margin-top: 250px;
+    padding: 0 40px;
+}
+.volunteer-home-container{
+    background-image: url("../../../Images/stats-card.png") no-repeat center/cover;
+    background: linear-gradient(to right, #ed4918, rgba(239, 95, 52, 0.75));
+    border-radius: 20px;
+    width: 100%;
+    max-width: 1350px; 
+    height: 380px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    margin: 0 45px;
+    margin-bottom: 20px;
+    position: relative;
+}
+.volunteer-home-content{
+    padding: 70px 90px 100px;
+}
+
+.volunteer-head{
+    position: absolute;
+    left: 40px;
+    top: 50px;
+    max-width: 700px;
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 80px;
+    margin: 0;
+    padding: 50px;
+    color: #fff;
+}
+.volunteer-home-heading,
+.volunteer-home-btn,
+.home-volunteer-img{
+  padding: 10px;
+}
+.volunteer-btn{
+    position: absolute;
+    left: 48%;
+    top: 40%;
+    padding: 15px 30px;
+    background: #fff;
+    border-radius: 5px;
+    color: #062265;
+    font-weight: 500;
+    font-size: 18px;
+    justify-content: center;
+    align-items: center;
+    font-family: Roboto Slab, serif;
+    border: none;
+}
+
+.volunteer-img{
+    position: absolute;
+    top: -35%;
+    left: 70%;
+    background-position: right;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
+    
+.home-joinVolunteer{
+    width: 100%;
+    font-family: "Roboto Slab", serif;
+    margin: 0 auto;
+    margin-bottom: 150px;
+    margin-top: 250px;
+    padding: 0 40px;
+}
+.volunteer-home-container{
+    background-image: url("../../../Images/stats-card.png") no-repeat center/cover;
+    background: linear-gradient(to right, #ed4918, rgba(239, 95, 52, 0.75));
+    border-radius: 20px;
+    width: 100%;
+    max-width: 1350px; 
+    height: 380px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    margin: 0 45px;
+    margin-bottom: 20px;
+    position: relative;
+}
+.volunteer-home-content{
+    padding: 70px 90px 140px;
+}
+
+.volunteer-head{
+    position: absolute;
+    left: 40px;
+    top: 50px;
+    max-width: 600px;
+    font-size: 38px;
+    font-weight: 500;
+    line-height: 1.7;
+    margin: 0;
+    color: #fff;
+}
+.volunteer-home-heading,
+.volunteer-home-btn,
+.home-volunteer-img{
+  padding: 10px;
+}
+.volunteer-btn{
+    position: absolute;
+    left: 90px;
+    top: 70%;
+    padding: 15px 30px;
+    background: #fff;
+    border-radius: 5px;
+    color: #062265;
+    font-weight: 500;
+    font-size: 18px;
+    justify-content: center;
+    align-items: center;
+    font-family: Roboto Slab, serif;
+    border: none;
+}
+
+.volunteer-img{
+    position: absolute;
+    top: -35%;
+    left: 60%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .home-joinVolunteer{
+        padding: 0 40px;
+    }
+    .volunteer-home-container{
+        background-image: url("../../../Images/stats-card.png") no-repeat center/cover;
+        background: linear-gradient(to right, #ed4918, rgba(239, 95, 52, 0.75));
+        border-radius: 20px;
+        width: 100%;
+        max-width: 1350px; 
+        height: 380px; 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-items: center;
+        margin: 0 10px;
+        margin-bottom: 20px;
+        position: relative;
+    }
+
+    .volunteer-head{
+        position: absolute;
+        left: 10px;
+        top: 50px;
+        max-width: 500px;
+        font-size: 30px;
+        font-weight: 500;
+        line-height: 1.7;
+        margin: 0;
+        color: #fff;
+    }
+    .volunteer-home-heading,
+    .volunteer-home-btn,
+    .home-volunteer-img{
+      padding: 10px;
+    }
+    .volunteer-btn{
+        position: absolute;
+        left: 60px;
+        top: 60%;
+        padding: 15px 20px;
+        background: #fff;
+        border-radius: 5px;
+        color: #062265;
+        font-weight: 500;
+        font-size: 16px;
+        justify-content: center;
+        align-items: center;
+        font-family: Roboto Slab, serif;
+        border: none;
+    }
+    
+    .volunteer-img{
+        position: absolute;
+        top: -40px;
+        left: 50%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 300px;
+        height: 420px
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .home-joinVolunteer{
+        padding: 0 40px;
+    }
+    .volunteer-home-container{
+        background-image: url("../../../Images/stats-card.png") no-repeat center/cover;
+        background: linear-gradient(to right, #ed4918, rgba(239, 95, 52, 0.75));
+        border-radius: 20px;
+        width: 100%;
+        max-width: 1350px; 
+        height: 200px; 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-items: center;
+        margin: 0 10px;
+        margin-bottom: 20px;
+        position: relative;
+    }
+    .volunteer-head{
+        position: absolute;
+        left: 0px;
+        top: -20px;
+        font-size: 24px;
+        font-weight: 500;
+        line-height: normal;
+        margin: 0;
+        padding: 50px;
+        color: #fff;
+    }
+    .volunteer-home-heading,
+    .volunteer-home-btn,
+    .home-volunteer-img{
+      padding: 10px;
+    }
+    .volunteer-btn{
+        position: absolute;
+        left: 50px;
+        top: 50%;
+        padding: 15px 15px;
+        background: #fff;
+        border-radius: 5px;
+        color: #062265;
+        font-weight: 500;
+        font-size: 14px;
+        justify-content: center;
+        align-items: center;
+        font-family: Roboto Slab, serif;
+        border: none;
+    }
+    
+    .volunteer-img{
+      display: none;
+    
+    }
+}

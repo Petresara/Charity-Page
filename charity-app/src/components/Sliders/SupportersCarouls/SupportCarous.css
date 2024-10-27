@@ -1,0 +1,80 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.supporters-carousel {
+    width: 100%;
+    max-width: 100%;
+    margin-top: 150px;
+    margin-bottom: 120px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    overflow: hidden;
+}
+.carousel-track-supp {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 150px;
+    align-items: center;
+    transition: transform 1s ease;
+}
+.carousel-track-supp img {
+    width: 100px;
+    height: auto;
+    object-fit: cover;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px){
+    .supporters-carousel {
+        width: 100%;
+        max-width: 100%;
+        margin-top: 150px;
+        margin-bottom: 120px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: nowrap;
+        overflow: hidden;
+    }
+    .carousel-track-supp {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 150px;
+        align-items: center;
+        transition: transform 1s ease;
+    }
+    .carousel-track-supp img {
+        width: 100px;
+        height: auto;
+        object-fit: cover;
+    }
+}
+@media screen and (max-width: 767px){
+    .supporters-carousel {
+        width: 100%;
+        max-width: 100%;
+        margin-top: 150px;
+        margin-bottom: 120px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: nowrap;
+        overflow: hidden;
+    }
+    .carousel-track-supp {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 100px;
+        align-items: center;
+        transition: transform 1s ease;
+        width: calc(100px * 3 + 200px);
+    }
+    .carousel-track-supp img {
+        width: 100px;
+        height: auto;
+        object-fit: cover;
+    }
+}

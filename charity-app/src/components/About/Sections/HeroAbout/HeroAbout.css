@@ -1,0 +1,231 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+    
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.about-hero {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 0;
+}
+    .about-hero-container {
+        background: url("../../../Images/about-people.jpg") no-repeat center/cover;
+        min-height: 400px;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        z-index: 1;
+        margin: 100px 0;
+    }
+
+    .about-hero-container::before {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #212158;
+        content: "";
+        z-index: -1;
+        opacity: 0.7;
+    }
+    .about-hero-content {
+       margin: 0 auto;
+       font-family: "Roboto Slab", serif;
+    }
+    .about-hero-heading {
+        color: #fff;
+        font-size: 60px;
+        font-weight: 500;
+        padding: 15px;
+    }
+
+    .about-hero-path {
+        font-size: 20px;
+        color: #b1bee3;
+        text-align: center;
+    }
+
+    .about-hero-path a {
+        color: #fff;
+        text-decoration: none;
+    }
+    .about-hero-path a:hover {
+        color: #EF5F34;
+    }
+
+    .about-hero-path span {
+        color: #fff;
+    }
+    
+
+@media screen and (min-width: 1024px) and (max-width: 1439px){
+    .about-hero-container {
+        background: url("../../../Images/about-people.jpg") no-repeat top/cover;
+        min-height: 400px;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        z-index: 1;
+    }
+
+    .about-hero-container::before {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #212158;
+        content: "";
+        z-index: -1;
+        opacity: 0.7;
+    }
+
+    .about-hero-content {
+        margin: 0 auto;
+        font-family: "Roboto Slab", serif;
+    }
+
+    .about-hero-heading {
+        color: #fff;
+        font-size: 60px;
+        font-weight: 500;
+        padding: 15px;
+    }
+
+    .about-hero-path {
+        font-size: 20px;
+        color: #b1bee3;
+        text-align: center;
+    }
+
+    .about-hero-path a {
+        color: #fff;
+        text-decoration: none;
+    }
+    .about-hero-path a:hover {
+        color: #EF5F34;
+    }
+
+    .about-hero-path span {
+        color: #fff;
+    }
+    
+}
+
+@media screen and (min-width: 768px)and (max-width: 1023px){
+    .about-hero-container {
+        background: url("../../../Images/about-people.jpg") no-repeat top/cover;
+        min-height: 400px;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        z-index: 1;
+    }
+
+    .about-hero-container::before {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #212158;
+        content: "";
+        z-index: -1;
+        opacity: 0.7;
+    }
+
+    .about-hero-content {
+        margin: 0 auto;
+        font-family: "Roboto Slab", serif;
+    }
+
+    .about-hero-heading {
+        color: #fff;
+        font-size: 60px;
+        font-weight: 500;
+        padding: 15px;
+    }
+
+    .about-hero-path {
+        font-size: 20px;
+        color: #b1bee3;
+        text-align: center;
+    }
+
+    .about-hero-path a {
+        color: #fff;
+        text-decoration: none;
+    }
+    .about-hero-path a:hover {
+        color: #EF5F34;
+    }
+
+    .about-hero-path span {
+        color: #fff;
+    }
+    
+}
+
+@media screen and (max-width: 767px){
+    .about-hero-container {
+        background: url("../../../Images/about-people.jpg") no-repeat center/cover;
+        min-height: 250px;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        z-index: 1;
+    }
+
+    .about-hero-container::before {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #212158;
+        content: "";
+        z-index: -1;
+        opacity: 0.7;
+    }
+
+    .about-hero-content {
+        margin: 0 auto;
+        font-family: "Roboto Slab", serif;
+    }
+
+    .about-hero-heading {
+        color: #fff;
+        font-size: 25px;
+        font-weight: 500;
+        padding: 15px;
+    }
+
+    .about-hero-path {
+        font-size: 20px;
+        color: #b1bee3;
+        text-align: center;
+    }
+
+    .about-hero-path a {
+        color: #fff;
+        text-decoration: none;
+    }
+    .about-hero-path a:hover {
+        color: #EF5F34;
+    }
+
+    .about-hero-path span {
+        color: #fff;
+    }
+}

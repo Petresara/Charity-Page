@@ -15,7 +15,7 @@ function JoinVolunteer() {
              </div>
            </div>
            <div className="home-volunteer-img">
-            <img src={volunteer} className="volunteer-img"/>
+            <img src={volunteer} alt="volunteer" className="volunteer-img"/>
            </div>
          </div>
         </div>

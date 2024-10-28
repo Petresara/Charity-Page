@@ -9,7 +9,7 @@ const InfoAbout = () => {
      <div className="about-info">
      <div className="about-info-container">
         <div className="about-info-content-img">
-        <img src={childrenAboutUs}/>
+        <img src={childrenAboutUs} alt="chilldren"/>
         <div className="pulse-container">
         <div className="pulse-circle large circle1"></div>
         <div className="pulse-circle large circle2"></div>

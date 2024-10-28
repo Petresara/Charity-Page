@@ -11,25 +11,25 @@ function IntroHome() {
       <div className="home-cards-container">
        <div className="home-food-card">
         <div className="home-img-card-container">
-          <img src={food}/>
+          <img src={food} alt="food"/>
         </div>
         <a href="#">Healthy Food</a>
        </div>
        <div className="home-water-card">
         <div className="home-img-card-container">
-          <img src={water}/>
+          <img src={water} alt="water"/>
         </div>
         <a href="#">Clean Water</a>
        </div>
        <div className="home-medicine-card">
         <div className="home-img-card-container">
-          <img src={medicine}/>
+          <img src={medicine} alt="medicine"/>
         </div>
         <a href="#">Medical Care</a>
        </div>
        <div className="home-education-card">
         <div className="home-img-card-container">
-          <img src={education}/>
+          <img src={education} alt="education"/>
         </div>
         <a href="#">Child Education</a>
        </div>

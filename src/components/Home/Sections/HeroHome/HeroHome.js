@@ -25,7 +25,7 @@ function HeroHome() {
         </div>
         <div className='hero-secondImgs-container'>
           <div className="total-project-container">
-            <img src={totalProjects} className='total-project'/>
+            <img src={totalProjects} alt='totalProject' className='total-project'/>
             <div className="project-content">
               <div className="icon">
                 <FiDollarSign size={30} />

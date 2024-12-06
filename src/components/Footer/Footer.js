@@ -29,11 +29,11 @@ function Footer() {
           <div className="services-container">
            <h2 className="services-heading">Services</h2>
            <ul>
-            <li><a href="#">About Us</a></li>
-            <li><a href="#">Causes</a></li>
-            <li><a href="#">Latest News</a></li>
-            <li><a href="#">Contact us</a></li>
-            <li><a href="#">Events</a></li>
+            <li><a href="/#">About Us</a></li>
+            <li><a href="/#">Causes</a></li>
+            <li><a href="/#">Latest News</a></li>
+            <li><a href="/#">Contact us</a></li>
+            <li><a href="/#">Events</a></li>
            </ul>
           </div>
           <div className="contact-container">

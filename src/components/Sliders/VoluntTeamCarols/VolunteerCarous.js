@@ -33,7 +33,7 @@ function VolunteerCarous() {
                             src={volunteer.image}
                             alt={volunteer.name}
                         />
-                        <a href="#" className="volunteer-name">
+                        <a href="/#" className="volunteer-name">
                             {volunteer.name}
                         </a>
                         <p className="volunteer-desc">{volunteer.description}</p>

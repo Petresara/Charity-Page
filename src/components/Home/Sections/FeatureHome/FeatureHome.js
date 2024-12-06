@@ -20,7 +20,7 @@ function FeatureHome() {
                     <div className="home-cards">
                         <div className="food-container-card">
                             <img src={educationCard} className="education-card-img" alt="Education Campaign" />
-                            <h2 className="link-title"><a href="#">Help To Build a Secure Life Of a Poor Children.</a></h2>
+                            <h2 className="link-title"><a href="/#">Help To Build a Secure Life Of a Poor Children.</a></h2>
                             <div className="education-raised-container">
                                 <div className="education-percents">
                                     <p>65%</p>
@@ -37,13 +37,13 @@ function FeatureHome() {
                             </div>
                             <div className="about-Laura">
                                 <img src={Laura} alt="Laura Falary" />
-                                <p className="laura-link"><a href="#">Laura Falary</a></p>
+                                <p className="laura-link"><a href="/#">Laura Falary</a></p>
                                 <button className="donate-btn">Donate Now</button>
                             </div>
                         </div>
                         <div className="food-container-card">
                             <img src={foodCard} className="food-card-img" alt="Food Campaign" />
-                            <h2 className="link-title"><a href="#">Ensure Clean Water To The African Kids.</a></h2>
+                            <h2 className="link-title"><a href="/#">Ensure Clean Water To The African Kids.</a></h2>
                             <div className="food-raised-container">
                                 <div className="food-percents">
                                     <p>75%</p>
@@ -60,14 +60,14 @@ function FeatureHome() {
                             </div>
                             <div className="about-Laura">
                                 <img src={Laura} alt="Laura Falary" />
-                                <p className="laura-link"><a href="#">Laura Falary</a></p>
+                                <p className="laura-link"><a href="/#">Laura Falary</a></p>
                                 <button className="donate-btn">Donate Now</button>
                             </div>
                         </div>
                         <div className="medicine-container-card">
                             <img src={medicineCard} className="medicine-card-img" alt="Medicine Campaign" />
                             <h2 className="link-title">
-                                <a href="#">Your Help Can Save A Human Life From Death.</a>
+                                <a href="/#">Your Help Can Save A Human Life From Death.</a>
                             </h2>
                             <div className="medicine-raised-container">
                                 <div className="medicine-percents">
@@ -86,7 +86,7 @@ function FeatureHome() {
                             </div>
                             <div className="about-Laura">
                                 <img src={Laura} alt="Laura Falary" />
-                                <p className="laura-link"><a href="#">Laura Falary</a></p>
+                                <p className="laura-link"><a href="/#">Laura Falary</a></p>
                                 <button className="donate-btn">Donate Now</button>
                             </div>
                         </div>

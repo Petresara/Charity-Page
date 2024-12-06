@@ -21,7 +21,7 @@ function FeaturesAbout() {
        <div className="about-cards">
         <div className="education-container-card-ab">
           <img src={educationCard} alt="educationCard" className="education-card-img-ab"/>
-          <h2 className="link-title-ab"><a href="#">Help To Build A Secure Life Of a Poor Children.</a></h2>
+          <h2 className="link-title-ab"><a href="/#">Help To Build A Secure Life Of a Poor Children.</a></h2>
           <div className="education-raised-container-ab">
         <div className="education-percents-ab">
             <p>65%</p>
@@ -38,13 +38,13 @@ function FeaturesAbout() {
         </div>
           <div className="about-Laura-ab">
            <img src={Laura} alt="Laura"/>
-           <p className="laura-link-ab"><a href="#">Laura Falary</a></p>
+           <p className="laura-link-ab"><a href="/#">Laura Falary</a></p>
            <button className="donate-btn-ab">Donate Now</button>
           </div>
         </div>
         <div className="food-container-card-ab">
           <img src={foodCard} alt='foodCard' className="food-card-img-ab"/>
-          <h2 className="link-title-ab"><a href="#">Ensure Clean Water To The African Kids.</a></h2>
+          <h2 className="link-title-ab"><a href="/#">Ensure Clean Water To The African Kids.</a></h2>
           <div className="food-raised-container-ab">
         <div className="food-percents-ab">
             <p>75%</p>
@@ -61,13 +61,13 @@ function FeaturesAbout() {
         </div>
           <div className="about-Laura-ab">
            <img src={Laura} alt="Laura"/>
-           <p className="laura-link-ab"><a href="#">Laura Falary</a></p>
+           <p className="laura-link-ab"><a href="/#">Laura Falary</a></p>
            <button className="donate-btn-ab">Donate Now</button>
           </div>
         </div>
         <div className="medicine-container-card-ab">
           <img src={medicineCard} alt= 'medicineCard' className="medicine-card-img-ab"/>
-          <h2 className="link-title-ab"><a href="#">Your Help Can Save A Human Life From Death.</a></h2>
+          <h2 className="link-title-ab"><a href="/#">Your Help Can Save A Human Life From Death.</a></h2>
           <div className="medicine-raised-container-ab">
         <div className="medicine-percents-ab">
             <p>85%</p>
@@ -84,7 +84,7 @@ function FeaturesAbout() {
         </div>
           <div className="about-Laura-ab">
            <img src={Laura} alt="Laura"/>
-           <p className="laura-link-ab"><a href="#">Laura Falary</a></p>
+           <p className="laura-link-ab"><a href="/#">Laura Falary</a></p>
            <button className="donate-btn-ab">Donate Now</button>
           </div>
         </div>

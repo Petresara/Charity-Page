@@ -20,30 +20,30 @@ function Blog() {
     <div className="blog-cards">
         <div className="blog-card">
             <img src={firstBlog} className="first-blog-img" alt="Blog Post 1" />
-            <h2 className="first-blog-head"><a href="#">Giving The Poor Is A Great Satisfaction Of heart.</a></h2>
+            <h2 className="first-blog-head"><a href="/#">Giving The Poor Is A Great Satisfaction Of heart.</a></h2>
             <div className="blog-card-second-container">
                 <img src={Jenefer} className="Jenefer" alt="Jenefer Willy" />
-                <p><a href="#">Jenefer Willy</a></p>
+                <p><a href="/#">Jenefer Willy</a></p>
                 <p className="chat-icon">< BsChatText /> 35</p>
             </div>
         </div>
 
         <div className="blog-card">
             <img src={secondBlog} className="first-blog-img" alt="Blog Post 2" />
-            <h2 className="first-blog-head"><a href="#">Your Help Can Make Someone’s life Easier.</a></h2>
+            <h2 className="first-blog-head"><a href="/#">Your Help Can Make Someone’s life Easier.</a></h2>
             <div className="blog-card-second-container">
                 <img src={Konal} className="Konal" alt="Konal Biry" />
-                <p><a href="#">Konal Biry</a></p>
+                <p><a href="/#">Konal Biry</a></p>
                 <p className="chat-icon"> <BsChatText />  80 </p>
             </div>
         </div>
 
         <div className="blog-card">
             <img src={thirdBlog} className="first-blog-img" alt="Blog Post 3" />
-            <h2 className="first-blog-head"><a href="#">Give Education, It’s The Best Gift Ever.</a></h2>
+            <h2 className="first-blog-head"><a href="/#">Give Education, It’s The Best Gift Ever.</a></h2>
             <div className="blog-card-second-container">
                 <img src={woman} className="Willy" alt="Jenefer Willy" />
-                <p><a href="#">Jenefer Willy</a></p>
+                <p><a href="/#">Jenefer Willy</a></p>
                 <p className="chat-icon"> <BsChatText />  95</p>
             </div>
         </div>

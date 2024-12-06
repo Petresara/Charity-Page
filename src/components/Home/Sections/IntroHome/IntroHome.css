@@ -180,26 +180,18 @@
     }
 
     .home-food-card {
-        grid-column-start: 1;
-        grid-column-end: 1;
         background-color: #caf7f2;
     }
     
     .home-water-card {
-        grid-column-start: 2;
-        grid-column-end: 2;
         background-color: #fde4de;
     }
     
     .home-medicine-card {
-        grid-column-start: 3;
-        grid-column-end: 3;
         background-color: #d2ecf4;
     }
     
     .home-education-card {
-        grid-column-start: 4;
-        grid-column-end: 4;
         background-color: #fff5dc;
     }
 

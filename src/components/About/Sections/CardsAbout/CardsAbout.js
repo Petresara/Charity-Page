@@ -13,25 +13,25 @@ function CardsAbout() {
         <div className="about-img-card-container">
           <img src={food} alt="food"/>
         </div>
-        <a href="#">Healthy Food</a>
+        <a href="/#">Healthy Food</a>
        </div>
        <div className="about-water-card">
         <div className="about-img-card-container">
           <img src={water} alt="water"/>
         </div>
-        <a href="#">Clean Water</a>
+        <a href="/#">Clean Water</a>
        </div>
        <div className="about-medicine-card">
         <div className="about-img-card-container">
           <img src={medicine} alt="medicine"/>
         </div>
-        <a href="#">Medical Care</a>
+        <a href="/#">Medical Care</a>
        </div>
        <div className="about-education-card">
         <div className="about-img-card-container">
           <img src={education} alt="education"/>
         </div>
-        <a href="#">Child Education</a>
+        <a href="/#">Child Education</a>
        </div>
       </div>
      </div>

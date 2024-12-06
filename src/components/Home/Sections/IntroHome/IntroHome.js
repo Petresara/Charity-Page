@@ -13,25 +13,25 @@ function IntroHome() {
         <div className="home-img-card-container">
           <img src={food} alt="food"/>
         </div>
-        <a href="#">Healthy Food</a>
+        <a href="/#">Healthy Food</a>
        </div>
        <div className="home-water-card">
         <div className="home-img-card-container">
           <img src={water} alt="water"/>
         </div>
-        <a href="#">Clean Water</a>
+        <a href="/#">Clean Water</a>
        </div>
        <div className="home-medicine-card">
         <div className="home-img-card-container">
           <img src={medicine} alt="medicine"/>
         </div>
-        <a href="#">Medical Care</a>
+        <a href="/#">Medical Care</a>
        </div>
        <div className="home-education-card">
         <div className="home-img-card-container">
           <img src={education} alt="education"/>
         </div>
-        <a href="#">Child Education</a>
+        <a href="/#">Child Education</a>
        </div>
       </div>
      </div>

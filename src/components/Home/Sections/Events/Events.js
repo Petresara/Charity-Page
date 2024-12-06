@@ -21,7 +21,7 @@ function Events() {
                         <img className="event-image" src={eventsFirst} alt="Event 1" />
                         <div className="card-content">
                             <h4 className="card-subhead">25 Nov, 2021</h4>
-                            <h2 className="card-head"><a href="#">Help The Poor From Your Soul</a></h2>
+                            <h2 className="card-head"><a href="/#">Help The Poor From Your Soul</a></h2>
                             <p className="card-text">There are many variations of passages of Lorem Ipsum available.</p>
                         </div>
                     </div>
@@ -29,7 +29,7 @@ function Events() {
                         <img className="event-image" src={eventsSecond} alt="Event 2" />
                         <div className="card-content">
                             <h4 className="card-subhead">26 Nov, 2021</h4>
-                            <h2 className="card-head"><a href="#">Help Children Raise Out Of Poverty.</a></h2>
+                            <h2 className="card-head"><a href="/#">Help Children Raise Out Of Poverty.</a></h2>
                             <p className="card-text">There are many variations of passages of Lorem Ipsum available.</p>
                         </div>
                     </div>
@@ -37,7 +37,7 @@ function Events() {
                         <img className="event-image" src={eventsThird} alt="Event 3" />
                         <div className="card-content">
                             <h4 className="card-subhead">27 Nov, 2021</h4>
-                            <h2 className="card-head"><a href="#">Providing Education Is The Valuable Gift</a></h2>
+                            <h2 className="card-head"><a href="/#">Providing Education Is The Valuable Gift</a></h2>
                             <p className="card-text">There are many variations of passages of Lorem Ipsum available.</p>
                         </div>
                     </div>

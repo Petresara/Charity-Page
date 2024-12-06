@@ -10,7 +10,7 @@ function AboutHome() {
         <div className="home-aboutHome">
         <div className="home-aboutHome-container">
            <div className="aboutHome-content-img">
-           <img src={littleGirl}/>
+           <img src={littleGirl} alt="little girl"/>
            <div className="design-container">
         <div className="cube cube1"></div>
         <div className="cube cube2"></div>

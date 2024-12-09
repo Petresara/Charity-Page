@@ -10,7 +10,7 @@ Your challenge is to build out this crowdfunding product page and get it looking
 ### Author
 - GitHub Pages: [Sara](https://github.com/Petresara)
 - LinkedIn: [Sara Petreska](https://www.linkedin.com/in/sara-petreska-28bba7304/)
-- Netlify 
+- Netlify: [Charitio](https://charity-react-app.netlify.app/)
 
 ## Technology Used
 - **Front-end**

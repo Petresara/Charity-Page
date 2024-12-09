@@ -389,19 +389,14 @@
     .blog-head {
         font-family: 'Roboto Slab', serif;
         font-weight: 500;
-        font-size: 38px;
+        font-size: 30px;
         color: #212158;
         margin-bottom: 20px;
     }
     
     .blog-text {
-        font-family: 'Roboto', sans-serif;
-        font-weight: 400;
         font-size: 17px;
-        color: rgb(106, 105, 105);
-        line-height: 1.8;
         max-width: 530px;
-        margin: 0 auto;
     }
     
     .blog-cards {

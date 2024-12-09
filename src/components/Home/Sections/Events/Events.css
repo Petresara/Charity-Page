@@ -490,7 +490,7 @@
         max-width: 380px;
         font-size: 18px;
         font-weight: 500;
-        padding: 20px;
+        padding: 10px;
         margin-top: -45px;
         margin-left: 0px;
         transition: 0.2s ease-in;
@@ -501,13 +501,10 @@
     }
     
     .card-text {
+        padding-top: 10px;
         font-size: 16px;
-        color: #5a5959;
-        line-height: 1.7;
-        text-align: left;
-        font-weight: 400;
-        font-family: "Roboto", sans-serif;
-        margin-top: -45px;
+        line-height: 1.2;
+        margin-top: -20px;
         margin-left: 10px;
 }
 }

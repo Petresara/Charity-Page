@@ -183,70 +183,12 @@
 
 
 @media  screen and (max-width: 1226px) {
-    .navbar-container {
-        display: flex;
-        align-items: center;
-        gap: 10px;
-    }
-    .hamburger-menu {
-        display: none;
-    }
-    .navbar-img-container {
-        padding: 10px;
-      
-    }
-    #charitioLogo {
-        width: 190px;
-        height: 55px;
-    }
-
-    .navbar-list {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        gap: 5px;
-    }
-    
-    .navbar-home-dropdown {
-        position: relative;
-        margin-left: -30px;
-    }
-
-    .navbar-dropdown-list {
-        display: none;
-        position:absolute;
-        top: 100%;
-        left: 0;
-        background-color: #fff;
-        width: 200px;
-        box-shadow:  0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-        z-index: 99;
-        text-align: left;
-        
-    }
-
-    .navbar-home-dropdown:hover .navbar-dropdown-list{
-        display: block;
-    }
-
-    .home-dropdown-menu a:hover {
-        background-color: #f1f1f1;
-    }
-
-    .buttons {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        gap: 10px;
-        margin-left: -90px;
-    }
- 
-    
-}
-
-@media screen and (max-width: 768px){
     .hamburger-menu {
         display: block;
+        padding: 5px 10px;
+        border-radius: 5px;
+        margin-left: 10px;
+        background-color: #E34212;
     }
 
     .navbar-list {
@@ -255,10 +197,41 @@
 
     #charitioLogo {
         margin-top: 25px;
-        margin-left: 150px;
+        margin-left: -125px;
     }
 
    #donate-btn {
     display: none;
    } 
+   .buttons {
+    display: none;
+   }
+ 
+    
+}
+
+@media screen and (max-width: 768px){
+    .hamburger-menu {
+        display: block;
+        padding: 5px 10px;
+        border-radius: 5px;
+        margin-left: 10px;
+        background-color: #E34212;
+    }
+
+    .navbar-list {
+        display: none;
+    }
+
+    #charitioLogo {
+        margin-top: 25px;
+        margin-left: 50px;
+    }
+
+   #donate-btn {
+    display: none;
+   } 
+   .buttons {
+    display: none;
+   }
 }

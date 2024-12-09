@@ -211,7 +211,7 @@
 
 @media screen and (max-width: 767px) {
     .home-joinVolunteer{
-        padding: 0 40px;
+        padding: 0 10px;
     }
     .volunteer-home-container{
         background-image: url("../../../Images/stats-card.png") no-repeat center/cover;
@@ -227,6 +227,8 @@
         margin: 0 10px;
         margin-bottom: 20px;
         position: relative;
+        left: -10px;
+        top: 0;
     }
     .volunteer-head{
         position: absolute;

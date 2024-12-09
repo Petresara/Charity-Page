@@ -30,8 +30,9 @@
       position: relative;
       background-color: #fff;
       border-radius: 15px;
-      padding: 20px;
-      width: 310px;
+      padding: 15px;
+      max-width: 300px;
+      width: 100%;
       height: 210px;
       box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
       transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
@@ -113,25 +114,17 @@
 }
     
     
-@media screen and (min-width: 1024) and (max-width: 1439px) {
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
     .about-cards {
-        width: 100%;
-        max-width: 100%;
-        font-family: "Roboto Slab", serif;
-        margin: 0 auto;
-        margin-bottom: 350px;
-        margin-top: 150px;
         display: flex;
         justify-content: center;
         flex-direction: column;
     }
     .about-cards-container {
+        margin-top: 200px;
         display: grid;
         grid-auto-columns: repeat(4, 1fr);
-        justify-items: center;
-        align-items: center;
-        padding: 0 120px;
-        text-align: center;
+        padding: 20px;
     }
     .about-food-card,
     .about-water-card,
@@ -140,8 +133,9 @@
       position: relative;
       background-color: #fff;
       border-radius: 15px;
-      padding: 20px;
-      width: 310px;
+      padding: 15px;
+      max-width: 300px;
+      width: 100%;
       height: 210px;
       box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
       transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
@@ -216,23 +210,16 @@
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
     .about-cards {
-        width: 100%;
-        max-width: 100%;
-        font-family: "Roboto Slab", serif;
-        margin: 0 auto;
-        margin-bottom: 350px;
-        margin-top: 150px;
         display: flex;
         justify-content: center;
         flex-direction: column;
+        margin-top: 100px;
     }
     .about-cards-container {
         display: grid;
-        grid-auto-columns: repeat(4, 1fr);
-        justify-items: center;
-        align-items: center;
-        padding: 0 120px;
-        text-align: center;
+        grid-gap: 50px;
+        padding: 50px;
+        margin-left: 80px;
     }
     .about-food-card,
     .about-water-card,
@@ -242,7 +229,7 @@
         background-color: #fff;
         border-radius: 15px;
         padding: 20px;
-        width: 310px;
+        width: 260px;
         height: 210px;
         box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
         transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
@@ -275,34 +262,39 @@
         left: 20%;
         background-color: #ffffff;
         border-radius: 50%;
-        width: 150px;
-        height: 150px;
+        width: 140px;
+        height: 140px;
         display: flex;
         justify-content: center;
         align-items: center;
-        margin: 0 auto 50px;
         box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
     }
 
     .about-img-card-container img {
-        width: 100px;
-        height: 90px;
+        width: 90px;
+        height: 80px;
     }
 
     .about-food-card {
+        grid-row: 1/1;
         background-color: #caf7f2;
     }
     
     .about-water-card {
+        grid-column: 2/2;
         background-color: #fde4de;
     }
     
     .about-medicine-card {
+        grid-row: 2/2;
         background-color: #d2ecf4;
+        margin-left: -22rem;
     }
     
     .about-education-card {
+        grid-column: 2/2;
         background-color: #fff5dc;
+        margin-left: -39rem;
     }
     .about-cards-container div:nth-child(1),
     .about-cards-container div:nth-child(3) {
@@ -326,11 +318,11 @@
         margin-top: 300px;
     }
     .about-cards-container {
-        padding: 0 100px;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
+        gap: 60px;
     }
     .about-food-card,
     .about-water-card,
@@ -342,8 +334,8 @@
         padding: 15px;
         margin-top: 70px;
         margin-left: 19px;
-        width: 250px;
-        height: 190px;
+        width: 310px;
+        height: 175px;
         box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
         transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
     }
@@ -372,7 +364,7 @@
     .about-img-card-container {
         position: absolute;
         top: -25%;
-        left: 20%;
+        left: 25%;
         background-color: #ffffff;
         border-radius: 50%;
         width: 150px;

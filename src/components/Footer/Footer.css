@@ -185,15 +185,13 @@ ul li a:hover {
 }
 
 .footer-info {
-    position: absolute;
-    left: 0px;
     width: 100%;
     text-align: center;
     padding: 25px 0;
     margin-bottom: 0;
     background-color: #0c214a;
     font-size: 15px;
-}
+} 
 
 @media  screen and (min-width: 1024px) and (max-width: 1439px){
     .footer-container {
@@ -235,12 +233,12 @@ ul li a:hover {
     ul li {
         margin-bottom: 3px;
     }
-    .footer-info {
+    /* .footer-info {
         position: absolute;
         bottom: -900%;
         font-size: 10px;
         max-width: 100%;
-    }
+    } */
 }
 
 @media (min-width: 768px)and(max-width: 1023px) {
@@ -286,12 +284,12 @@ ul li a:hover {
     ul li {
         margin-bottom: 3px;
     }
-    .footer-info {
+    /* .footer-info {
         font-size: 10px;
         width: 100%;
         position: absolute;
         bottom: -200px;
-    }
+    } */
 }
 
 @media (max-width: 767px) {
@@ -323,12 +321,12 @@ ul li a:hover {
     font-size: 15px;
     width: 100%;
 }
-.footer-info {
+/* .footer-info {
     font-size: 10px;
     width: 100%;
     padding: 15px;
     position: absolute;
     bottom: -417%;
-}
+} */
     
 }

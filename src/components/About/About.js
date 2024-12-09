@@ -16,11 +16,11 @@ const About = () => {
        <HeroAbout />
        <IntroAbout />
        <CardsAbout />
-       <InfoAbout /> 
+       <InfoAbout />  
        <StatisticsCard /> 
-       <FeaturesAbout /> 
-       <VolunteersTeamAbout />
-       <SupportersAbout /> 
+       <FeaturesAbout />  
+       <VolunteersTeamAbout /> 
+       <SupportersAbout />  
       </div>
     );
 }

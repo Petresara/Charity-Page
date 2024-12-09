@@ -714,7 +714,6 @@
         height: 100%;
         font-family: "Roboto Slab", serif;
         margin: 0 auto;
-        margin-top: 150px;
         padding: 0 80px;
     }
     
@@ -913,11 +912,6 @@
     }
     
     .laura-link a {
-        text-decoration: none;
-        font-size: 14px;
-        font-family: 'Roboto', sans-serif;
-        font-weight: 500;
-        color: #202020;
-    
+        padding-left: 30px;
     }
     } 
